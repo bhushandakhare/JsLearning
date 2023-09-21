@@ -11,24 +11,24 @@ console.log(myFullName);
 var love="I LOVE Js";
 console.log(love);
 
-var firstName="firstName: Bhushan";
-console.log(firstName);
+var firstName="Bhushan";
+console.log("FirstName:",firstName);
 
-var lastName="lastName: Dakhare";
-console.log(lastName);
+var lastName="Dakhare";
+console.log("LastName:",lastName);
 
-var age="age: 25";9
-console.log(age); 
+var age="25";9
+console.log("age:",age); 
 
 var address="Chandrapur";
-console.log(address);
+console.log("address:",address);
 
 var pinCode="442917";
-console.log(pinCode);
+console.log("pinCode:",pinCode);
 
 var gender="Male";
-console.log(gender);
+console.log("Gender:",gender);
 
 var isMarried="No"
-console.log(isMarried)
+console.log("isMarried",isMarried)
 
