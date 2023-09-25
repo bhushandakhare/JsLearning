@@ -7,6 +7,8 @@ function myPersonalDetails(){
 }
 myPersonalDetails();
 
+console.log("                                                                                                     ");
+console.log("                                                                                                      ");
 
 console.log("2. ====== Function type:function with arguments and no return type ===== ");
 console.log("==== swap ========");
@@ -22,6 +24,10 @@ swap("Virat", "Anushka");
 swap("Pune", "Mumbai");
 swap("India", "USA");
 
+
+console.log("                                                                                                     ");
+console.log("                                                                                                      ");
+
 console.log("3. ====== Function type:function with arguments and return type ===== ");
 function square(num){
    var result = num * num; 
@@ -29,3 +35,9 @@ function square(num){
 }
 var squareNum = square(5);
 console.log('Num is 5 and its square is: ', squareNum);
+
+
+
+console.log("                                                                                                     ");
+console.log("                                                                                                      ");
+

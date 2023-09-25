@@ -54,3 +54,4 @@ console.log(accountNumber);
 accountNumber = null
 
 console.log(accountNumber);
+

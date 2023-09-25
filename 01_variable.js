@@ -17,3 +17,4 @@ console.log(height);
 
 height = "6.2 feet";// update
 console.log(height);
+
