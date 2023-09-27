@@ -19,7 +19,7 @@ function stringHandsOn() {
      console.log(`5.First Character: ${firstChar}, Last Character: ${remove.charAt(remove.length-1)}`);
 
      var count=remove.split(" ");
-    console.log("6. ", count.length);
+    console.log("6. length of word", count.length);
 
     var find=str.search(`good`);
     console.log(`7. Index of "good" is: ${find}`);
