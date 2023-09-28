@@ -18,7 +18,7 @@ console.log("======================  Step 2  ===========================");
 function femaleMarriageEligibility(gender,age,girlName) {
     var result= gender=="Female" && age>18 
     ? `Hey ${girlName} you are Eligible for marriage, Congrats`
-    :`Sorry ${girlName} you are noy Eligible, try next time`;
+    : `Sorry ${girlName} you are noy Eligible, try next time`;
     return result;
 }
 var result=femaleMarriageEligibility("Female", 16, "Jenifer");
