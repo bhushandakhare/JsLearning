@@ -11,4 +11,4 @@ var count =0;
   console.log(`Total numbers Character "a" or "A" Available in Given String: ${count} `);
 }
 countCharA('I AM Learning JavaScript, The Language of internet');
-countCharA("My favourite movie is LAggAn");
+countCharA("My favorite movie is LAggAn");
