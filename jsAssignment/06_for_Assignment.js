@@ -45,7 +45,7 @@ for (let index = 10; index<=100; index=index+10) {
 console.log(result);
 
 console.log(`=========== Table of 10 in reverse ==========`);
-var result="";
+var result=" ";
 for (let index = 100; index>=10; index=index-10) {
     result= result + index + " ";
     
