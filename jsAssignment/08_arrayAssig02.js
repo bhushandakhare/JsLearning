@@ -12,7 +12,7 @@ console.log(arrayNumbers[arrayNumbers.length-3]);
 console.log(`================================== Step 4 & 6 ===============================`);
 let result1=""
 let sum2=0;
-for (const index in arrayNumbers) {
+for (const index in arrayNumbers){
    if (index%2==0) {
 
       const element5 = arrayNumbers[index];
