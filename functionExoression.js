@@ -12,4 +12,4 @@ var square = function(value){
     return value * value;
 }
 var result = square(25);
-console.log(`Square of 25 is ${result}`);
+console.log(`Square of 25 is ${result}`);  
