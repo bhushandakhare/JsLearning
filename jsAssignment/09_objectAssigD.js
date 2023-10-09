@@ -50,3 +50,7 @@ console.log(
 for (const travers of professor.certificates) {
   console.log(travers);
 }
+
+
+
+

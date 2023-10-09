@@ -17,7 +17,7 @@ console.log("FirstName:",firstName);
 var lastName="Dakhare";
 console.log("LastName:",lastName);
 
-var age="25";9
+var age="25";
 console.log("age:",age); 
 
 var address="Chandrapur";
