@@ -14,7 +14,7 @@ function stringHandsOn() {
  
    var result = len-leng;
     console.log(`4.Total No. of Spaces removed: ${result}`);
-
+ 
     var firstChar=remove.charAt(0);
      console.log(`5.First Character: ${firstChar}, Last Character: ${remove.charAt(remove.length-1)}`);
 

@@ -2,7 +2,7 @@ const valueArray = ['name', 'age', 'isMarried', 'city']
 
 valueArray.splice(2,1,"Graduation")
 console.log(valueArray);
-
+console.log(`=========================================================`);
 let person = {
     name: "Jenny",
     age: 22,
@@ -22,7 +22,7 @@ for (const element of entry) {
     console.log(element[0], element[1]);
 }
 
-console.log(`Traversing of an object...`);
+console.log(`==========================Traversing of an object...============================`);
 for (const key in person) {
    console.log(key, person[key]);
 }
@@ -48,7 +48,7 @@ Object.freeze(personJenny);
 personJenny.city = "Lucknow";
 console.log(personJenny);
 
-console.log(`Object.assign()`);
+console.log(`============================Object.assign()============================`);
 
 let elon = {
     name: "elon",
