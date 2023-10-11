@@ -7,7 +7,6 @@ if (girlAge>=18) {
 console.log(`Daily life`);
 
 var elonAge = 17;
-
 // If age is greater than equal 18 then allow for vote else no.
 if (elonAge>=18) {
     console.log(`Welcome.. Elon`);
@@ -37,3 +36,4 @@ if (elonAge>=18) {
     console.log(`Try next time please!`);
 }
 console.log(`==================`);
+

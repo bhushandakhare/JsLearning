@@ -57,7 +57,7 @@ var strHands=function(){
     var charLength = char.length;
     console.log(`A.Total Character Available in the String is: ${charLength}`);
 
-    console.log('B. Char stored at index 6 is: ', char.charAt(6));
+    console.log('B. Char stored at index 5 is: ', char.charAt(5));
 
     console.log('C. Char stored at index 11 is: ', char.charAt(11));
    
@@ -77,9 +77,6 @@ var strHands=function(){
 
     var wordCal= wordLength * wordLength;
     console.log(`Result Square of the Word Length is: ${wordCal}`);
-
-
-
 
 }
 strHands();
