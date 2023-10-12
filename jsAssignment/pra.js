@@ -26,3 +26,21 @@ else{
 }
 }
 statement(3)
+
+// 6. Given a string company = “Codemind Technology”;
+// a. Write a code to reverse only word → Technology
+// b. Expected output → “ ygolonhceT” 
+let company = "Codemind Technology";
+console.log(`Given String is ${company}`);
+let reverse="";
+for (let index =company.length-1 ; index >0; index--) {
+
+    let char=company.charAt(index);
+   // console.log(char);
+    if(char!=" "){
+        reverse=reverse+char;  
+    }
+    else
+     break;
+}
+console.log(`Resultant String is ${reverse}`);
