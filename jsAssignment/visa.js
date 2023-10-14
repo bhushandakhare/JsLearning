@@ -113,3 +113,37 @@ traverseObject(CollegeOfVJTI1);
 
 const CollegeOfPICT1 = new College('PICT College', 'E&TC', 'Pune', 'Pune University');
 traverseObject(CollegeOfPICT1);
+
+
+console.log(`============================================ vishakha  assignment =========================`);
+
+console.log(`=======Assignment===================`);
+var countStr = function(inputStr){
+   
+    var count = 0;
+
+    for(let i=0;i<= inputStr.length-1; i++){
+        var char = inputStr.charAt(i);
+        if(char=='A' && "a" || char == 'E' && "e"|| char == 'V'){
+       
+            count = count+1;
+            break;
+        }
+    }
+   return count;
+   
+}
+ var str1 = countStr("I am Angular Developer");
+ console.log(`String :=> "I am Angular Developer"`);
+ console.log(`Count Character "A" & "a" :-> ${str1} `);
+
+ console.log(`---------------------------------------------------`);
+ console.log(`String :=> "I am React DevEloper"`);
+ var str2 = countStr("I am React DevEloper");
+ console.log(`Count Character "E" & "e" :-> ${str2}`);
+
+ console.log(`---------------------------------------------------`);
+
+ var str3 = countStr("Im Vishakha Kokare");
+ console.log(`String :=> "Im Vishakha Kokare"`);
+ console.log(`Counting......."V" Character :-> ${str3}`);
