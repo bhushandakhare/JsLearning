@@ -1,11 +1,12 @@
-console.log(`============================ Assignment Set ============================`);
+console.log(`============================ Assignment Map ============================`);
 console.log(`                                                                          `);
 class Bank{
-    bank_name;
-    location;
-    account_no;
-    ifsc;
-    interest_rate
+   bank_name;
+   location;
+   account_no;
+   ifsc;
+   interest_rate
+
 constructor(bank_name,location,account_no,ifsc,interest_rate){
 this.bank_name=bank_name;
 this.location=location;
@@ -63,14 +64,18 @@ let sbi_bank= new Bank(
         "10%"
      );
 
-     let setOfBank= new Set();
-     setOfBank.add(axix_bank);
-     setOfBank.add(sbi_bank);
-     setOfBank.add(icici_bank);
-     setOfBank.add(kotak_bank);
-     setOfBank.add(hdfc_bank);
-     setOfBank.add(punjab_bank);
+     const map= new Map();
+     map.set("AXIX0012135",axix_bank);
+     map.set("SBIN001136",sbi_bank);
+     map.set("ICICI26522",icici_bank);
+     map.set("KOTAK456236",kotak_bank);
+     map.set("HDFC021541",hdfc_bank);
+     map.set("PUNJ652215",punjab_bank);
+   
+     const totalKeys= map.keys();
+     for (const key of totalKeys) {
+        const banks=map.get(key)
+        console.log(`Bank Name: ${banks.bank_name} , Account No.: ${banks.account_no}, Intereest Rate is: ${banks.interest_rate} `);
+     }
 
-for (const element of setOfBank) {
-    console.log(`Bank Name:${element.bank_name}, Location:${element.location}`);
-}
+    
