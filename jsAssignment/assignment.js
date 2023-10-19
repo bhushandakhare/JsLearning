@@ -2,8 +2,8 @@ console.log(`=====================================================`);
 
 var arrayNumber = [11, 3, 4, 11, 4, 7, 3];
 arrayNumber = [...new Set(arrayNumber)];
-console.log(`Given the Array :=> [11, 3, 4, 11, 4, 7, 3]`);
-console.log(`Remove The Duplicate Array :-> ${arrayNumber}`);
+console.log(`Given Array :=> [11, 3, 4, 11, 4, 7, 3]`);
+console.log(`Removing Duplicate Array :-> ${arrayNumber}`);
 
 
 
