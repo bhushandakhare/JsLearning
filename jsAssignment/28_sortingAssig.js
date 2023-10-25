@@ -9,7 +9,7 @@ console.log(`1] Reverse the Given Array: ${reverseArray}`);
 const arraySort= arrayRollNumbers.sort();
 console.log(`2] Array Sorting: ${arraySort}`);
 
- const ascending=arrayRollNumbers.sort((a,b)=>{
+ const ascending=arrayRollNumbers.sort((a,b)=> {
     return a>b ? 1 : -1;
  })
 console.log(`3] Array in Ascending Order: ${ascending}`);

@@ -89,4 +89,4 @@ const itEmployeeMap = itEmployee.map((currentValue) => {
 const object5 = itEmployeeMap.reduce((runningTotal, value) => {
   return runningTotal + value;
 });
-console.log(`Average Salary of IT Department:${object5 / itEmployee.length}`);
+console.log(`6] Average Salary of IT Department:${object5 / itEmployee.length}`);
