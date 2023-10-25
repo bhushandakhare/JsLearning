@@ -1,4 +1,5 @@
-
+console.log(`==================================== Assignment Filter A ==================================== `);
+console.log(`                                                                                           `);
 
 class Employee {
 
@@ -32,8 +33,6 @@ class Employee {
 return employee.emp_company=="TCS";
 
     })
-    //console.log(EmpFromTCS);
-
 
     tcsEmployee.forEach((employee)=>{
 
@@ -54,7 +53,6 @@ console.log(`                                                                   
 
       return  employee.emp_salary;
 
-
     })
   console.log(`Salary of Wipro Employees: ${empSalary}`);
 
@@ -66,6 +64,7 @@ empSalary.forEach((value)=>{
     sum=sum+value/2;
 })
 console.log(`Average Salary Of Wipro Employee: ${sum}`);
+
 
 console.log(`                                                                         `);
 
@@ -80,14 +79,9 @@ const empWiInfy= arrayEmployee.filter((employee)=>{
    
    })
    console.log(`Salary Of Wipro Or Infy Employee  : ${empSalaries}`);
-   
-   
-   
+
    var sum=0;
    empSalaries.forEach((value)=>{
-   
-     
-   
      sum=sum+value/4;
    })
    
