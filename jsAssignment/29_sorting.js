@@ -44,7 +44,7 @@ class Employee {
         });
         
         console.log(`                                                                                    `);
-        console.log(`==========================================================================================`);
+        console.log(`===========================================================================================`);
         const arraySalary = arrayEmployee.sort((emp1,emp2)=>{
             return emp1.emp_salary > emp2.emp_salary ? -1 : 1
         });
